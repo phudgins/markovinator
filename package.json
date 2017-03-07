@@ -1,14 +1,26 @@
 {
   "name": "markovinator",
-  "version": "0.0.1",
-  "description": "Markov text generator",
+  "version": "0.1.0",
+  "description": "Generate text using markov models",
   "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Pete Hudgins",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phudgins/markovinator.git"
+  },
+  "keywords": [
+    "markov"
+  ],
+  "author": "Pete Hudgins <pete.hudgins@gmail.com> (https://www.npmjs.com/~phudgins)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phudgins/markovinator/issues"
+  },
+  "homepage": "https://github.com/phudgins/markovinator#readme"
 }
